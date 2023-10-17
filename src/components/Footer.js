@@ -4,9 +4,9 @@ import { forwardRef } from "react";
 const Footer = forwardRef((props, ref) => {
   const {autoScroll} = props
   return (
-    <div className="footer_bottom" ref={ref.footerRef}>
+    <footer className="footer_bottom" ref={ref.footerRef}>
       <button onClick={() => autoScroll(ref.headerRef)}>Scroll to Header</button>
-    </div>
+    </footer>
   )
 })
 export default Footer

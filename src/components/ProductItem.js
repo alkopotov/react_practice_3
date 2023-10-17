@@ -11,7 +11,7 @@ function ProductItem(props) {
     }
   
   return (
-    <div onDoubleClick={(e) => deleteProduct(id)}>
+    <div className="card" onDoubleClick={(e) => deleteProduct(id)}>
       <img src={image}/>
       <h2>Product: {title}</h2>
       <h3>Price: {price}</h3>

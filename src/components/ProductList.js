@@ -15,7 +15,7 @@ function ProductList() {
       .then(data => setProducts(data.products))
   }, [])
   return (
-    <div>
+    <div className="product_list">
       {products.map(elem => 
         <ProductItem 
             key={elem.id} 
