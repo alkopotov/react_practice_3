@@ -19,12 +19,12 @@ function ProductList() {
       {products.map(elem => 
         <ProductItem 
             key={elem.id} 
-            id = {elem.id} 
+            id={elem.id} 
             title={elem.title}
-            image = {elem.images[0]}
-            price = {elem.price + '$'}
-            rating = {Math.round(+elem.rating)}
-            deleteProduct = {deleteProduct}
+            image={elem.images[0]}
+            price={elem.price + '$'}
+            rating={Math.round(+elem.rating)}
+            deleteProduct={deleteProduct}
             />)}
     </div>
   )

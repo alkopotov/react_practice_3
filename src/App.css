@@ -20,6 +20,7 @@ h1 {
   font-size: 40px;
 }
 .header_top>button, .footer_bottom>button {
+  cursor: pointer;
   font-size: 24px;
   background-color: rgb(106, 106, 230);
   border-radius: 10px;
@@ -48,6 +49,7 @@ h1 {
 
 .card {
   display: flex;
+  cursor: pointer;
   gap: 36px;
   padding: 22px 10px;
   flex-direction: column;
