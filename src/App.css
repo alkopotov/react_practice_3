@@ -62,6 +62,10 @@ h1 {
 .card>img {
   height: 200px;
 }
+
+.card>h2{
+  text-align: center;
+}
 .rating {
   display: flex;
   gap: 3px;
